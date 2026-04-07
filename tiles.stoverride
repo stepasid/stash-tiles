@@ -12,7 +12,6 @@ tiles:
     title: YouTube
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png
     collapsed: true
-    url: https://www.youtube.com/generate_204
 
   - name: ChatGPT-Web-Check
     title: ChatGPT
@@ -49,3 +48,7 @@ tiles:
     icon: https://element.io/images/favicon.ico
     collapsed: true
     url: https://app.element.io/#/user/@user17:elementout.ru
+
+script-providers:
+  YouTube-Check:
+    url: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/script/youtube.js
