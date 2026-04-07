@@ -1,51 +1,34 @@
-#SUBSCRIBED https://fastly.jsdelivr.net/gh/stepasid/stash-tiles@main/tiles.stoverride
-name: Custom Tiles
+#SUBSCRIBED https://fastly.jsdelivr.net/gh/StashNetworks/misc@master/collapsed-tiles/collapsed-tiles-example.stoverride
+name: Collapsed Tiles Example
 
 tiles:
-  - name: Instagram
-    title: Instagram
-    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Instagram.png
-    collapsed: true
-    url: https://www.instagram.com
-
-  - name: YouTube
-    title: YouTube
-    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png
-    collapsed: true
-    url: https://www.youtube.com
-
-  - name: ChatGPT
-    title: ChatGPT
+  - name: ChatGPT-Web-Check
+    title: ChatGPT Web
     icon: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/img/chatgpt.png
     collapsed: true
     url: https://chatgpt.com
-
-  - name: Claude
-    title: Claude
-    icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/claude.png
+  - name: ChatGPT-App-Check
+    title: ChatGPT App
+    icon: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/img/chatgpt.png
     collapsed: true
-    url: https://claude.ai
-
-  - name: NotebookLM
-    title: NotebookLM
-    icon: https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico
+    url: https://chatgpt.com
+  - name: YouTube-Check
+    title: YouTube
+    icon: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/img/youtube.png
     collapsed: true
-    url: https://notebooklm.google.com
-
-  - name: Telegram
-    title: Telegram
-    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png
+    url: https://www.youtube.com
+  - name: Netflix-Check
+    title: Netflix
+    icon: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/img/netflix.png
     collapsed: true
-    url: https://web.telegram.org
+    url: https://www.netflix.com
 
-  - name: WhatsApp
-    title: WhatsApp
-    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/WhatsApp.png
-    collapsed: true
-    url: https://web.whatsapp.com
-
-  - name: Element
-    title: Element
-    icon: https://element.io/images/favicon.ico
-    collapsed: true
-    url: https://app.element.io
+script-providers:
+  ChatGPT-Web-Check:
+    url: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/script/chatgpt-web.js
+  ChatGPT-App-Check:
+    url: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/script/chatgpt-app.js
+  YouTube-Check:
+    url: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/script/youtube.js
+  Netflix-Check:
+    url: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/script/netflix.js
