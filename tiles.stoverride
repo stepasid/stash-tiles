@@ -1,34 +1,13 @@
-#SUBSCRIBED https://fastly.jsdelivr.net/gh/StashNetworks/misc@master/collapsed-tiles/collapsed-tiles-example.stoverride
-name: Collapsed Tiles Example
+name: Custom Tiles
 
 tiles:
-  - name: ChatGPT-Web-Check
-    title: ChatGPT Web
-    icon: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/img/chatgpt.png
+  - name: instagram-check
+    title: Instagram
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Instagram.png
     collapsed: true
-    url: https://chatgpt.com
-  - name: ChatGPT-App-Check
-    title: ChatGPT App
-    icon: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/img/chatgpt.png
-    collapsed: true
-    url: https://chatgpt.com
-  - name: YouTube-Check
-    title: YouTube
-    icon: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/img/youtube.png
-    collapsed: true
-    url: https://www.youtube.com
-  - name: Netflix-Check
-    title: Netflix
-    icon: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/img/netflix.png
-    collapsed: true
-    url: https://www.netflix.com
+    url: https://www.instagram.com
 
 script-providers:
-  ChatGPT-Web-Check:
-    url: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/script/chatgpt-web.js
-  ChatGPT-App-Check:
-    url: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/script/chatgpt-app.js
-  YouTube-Check:
-    url: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/script/youtube.js
-  Netflix-Check:
-    url: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/script/netflix.js
+  instagram-check:
+    url: https://fastly.jsdelivr.net/gh/StashNetworks/misc@main/collapsed-tiles/script/instagram.js
+    interval: 86400
